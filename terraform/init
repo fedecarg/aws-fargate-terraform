@@ -1,0 +1,9 @@
+#!/usr/bin/env bash
+ENV=$1
+
+if [ -z $ENV ]; then
+  echo "You must pass in an environment like: ./init [test,dev,qa1,qa2,staging,production]";
+  exit 1;
+fi
+
+terraform init -backend-config="key=$ENV/terraform.tfstate" application

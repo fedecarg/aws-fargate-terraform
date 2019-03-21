@@ -1,0 +1,14 @@
+#!/usr/bin/env bash
+ENV=$1
+CONTAINER_IMAGE=$2
+
+if [ -z $ENV ]; then
+  echo "You must pass in an environment like: ./plan [test,dev,qa1,qa2,staging,production]";
+  exit 1;
+fi
+
+if [ -z $CONTAINER_IMAGE ]; then
+  terraform plan -var-file=common.tfvars -var-file=environments/$ENV.tfvars -out=plan.out application
+else
+  terraform plan -var-file=common.tfvars -var-file=environments/$ENV.tfvars -var "container_image=$CONTAINER_IMAGE" -out=plan.out application
+fi
