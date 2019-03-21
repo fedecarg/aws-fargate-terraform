@@ -4,8 +4,9 @@
 
 # Initial setup
 
-* Install [terraform](https://www.terraform.io/).
-* Install the AWS CLI using brew:
+* Install Terraform:
+    - `brew install terraform`
+* Install the AWS CLI:
     - `brew install awscli`
 * Create a new AWS profile:
     - `aws configure --profile federico`
