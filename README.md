@@ -53,10 +53,6 @@ More info here: https://www.terraform.io/docs/providers/aws/
 * Apply the changes required to reach the desired state of the configuration:
     - `terraform/apply <env>`
 
-## Destroy environment
-
-To destroy, please refer to https://www.terraform.io/intro/getting-started/destroy.html ☠️
-
 # Using CircleCI
 CircleCI Workflows support complex job orchestration using a simple set of [configuration keys](circle-ci/config.yaml) to help you resolve failures sooner.
 
