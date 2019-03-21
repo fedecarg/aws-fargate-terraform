@@ -1,4 +1,4 @@
-# How to deploy a Node.js app on AWS using Terraform and CircleCI
+# Terraform
 
 [Terraform](https://www.terraform.io/) is a very simple, yet powerful tool that allows you to write your stack as code, then share it and keep it up-to-date by committing the definition files using Git. Terraform is created by HashiCorp, the authors of popular open-source tools such as Vagrant and Packer.
 
