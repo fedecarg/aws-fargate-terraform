@@ -1,6 +1,6 @@
-# Terraform
+# Overview
 
-[Terraform](https://www.terraform.io/) is a very simple, yet powerful tool that allows you to write your stack as code, then share it and keep it up-to-date by committing the definition files using Git. Terraform is created by HashiCorp, the authors of popular open-source tools such as Vagrant and Packer.
+[Terraform](https://www.terraform.io/) is a very simple, yet powerful tool that allows you to write your stack as code, then share it and keep it up-to-date by committing the definition files using Git.
 
 # Initial setup
 
